@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FrontEnd baigiamasis darbas</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">S.T.B.</div>
+    <div class="search-input">
+      <input type="search" placeholder="Search products">
+      <i class="fas fa-search search-icon"></i>
+    </div>
+    <div class="button-container">
+      <button class="insert-btn" id="insert-btn">Insert </button>
+      <button class="sort-btn" id="sort-btn">Sort </button>
+    </div>
+    <div class="burger-btn">&#9776;</div>
+  </header>
+
+  <section class="products-menu">
+    <ul>
+      <li><h3>Pc Products</h3></li>
+      <li><h3>Mobile</h3></li>
+      <li><h3>Sound</h3></li>
+      <li><h3>Watches</h3></li>
+      <li><h3>Computer equipment</h3></li>
+      <li><h3>Tablet</h3></li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="form" id="form">
+      <h1>Insert Product</h1>
+      <input type="text" placeholder="title" id="title-input">
+      <input type="text" placeholder="price" id="price-input">
+      <input type="text" placeholder="imgUrl" id="imgUrl-input">
+      <input type="text" placeholder="description" id="description-input">
+      <input type="text" placeholder="location" id="location-input">
+      <button class="add-btn" id="add-btn">Add Product</button>
+    </div>
+    <div class="success-message" id="success-message">Product successfully was added!</div>
+  </section>
+
+<section>
+    <div class="back-delete-wrapper">
+      <button class="back-btn" id="back-btn">Back To Main Page</button>
+    </div>
+</section>
+
+
+  <footer class="footer-wrapper">
+    <div class="contacts">
+      <h3>Contacts:</h3>
+      <ul>
+        <li><a href="">+370 370 370</a></li>
+        <li><a href="">dev.alchem.eta@gmail.com</a></li>
+      </ul>
+    </div>
+    <!--  -->
+    <div class="social-media">
+      <h3>Social:</h3>
+      <ul>
+        <li><a href="">LinkedIn <i class="fab fa-linkedin"></i></a></li>
+        <li><a href=""> GitHub <i class="fab fa-github"></i></a></li>
+        <li><a href="">Youtube <i class="fab fa-youtube"></i></a></li>
+      </ul>
+    </div>
+    <!--  -->
+    <div class="location">
+      <h3>Lociation:</h3>
+      <ul>
+        <li><a href="">Sorventveien</a></li>
+        <li><a href="">Billingstad</a></li>
+        <li><a href="">1234</a></li>
+      </ul>
+    </div>
+</footer>
+
+
+<script src="./script.js" type="module"></script>
+</body>
+</html>
